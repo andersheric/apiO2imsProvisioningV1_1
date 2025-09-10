@@ -154,7 +154,7 @@ components:
           $ref: '#/components/schemas/O2ims_infrastructureProvisioning.ProvisioningStatus'
           description: |
             The time of the last message and the current ProvisioningPhase of the ProvisioningRequest.
-        provisionedResources:
+        provisionedResourceSet:
           $ref: '#/components/schemas/O2ims_infrastructureProvisioning.ProvisionedResurceSet'
           description: |
             The resources that have been successfully provisioned as part of the ProvisioningRequest.
