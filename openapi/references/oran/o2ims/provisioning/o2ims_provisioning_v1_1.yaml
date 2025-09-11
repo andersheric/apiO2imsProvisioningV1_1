@@ -110,7 +110,7 @@ components:
           description: |
             Human readable text about the provisioningPhase at the last updateTime.  
         provisioningPhase:
-          $ref: '#/components/schemas/O2ims_infrastructureProvisioning.ProvisioningStatus'
+          $ref: '#/components/schemas/O2ims_infrastructureProvisioning.ProvisioningPhase'
           description: |
             This is an enumerated set of values which reflects the current phase of the provisioning request.
       required:
