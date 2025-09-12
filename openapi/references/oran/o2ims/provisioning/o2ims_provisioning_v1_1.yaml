@@ -178,7 +178,7 @@ components:
           items:
             $ref: '#/components/schemas/O2ims_infrastructureProvisioning.ProvisioningRequestInfo'
 paths:
-  /o2ims-infrastructureprovisioning/v1/provisioningrequests:
+  /O2ims_infrastructureProvisioning/v1/provisioningRequests:
     get:
       tags:
       - O2ims_infrastructureProvisioning
@@ -352,7 +352,7 @@ paths:
                 $ref: '#/components/schemas/O2ims_infrastructureProvisioning.ProblemDetails'
         '401':
           description: Unauthorized
-  /o2ims-infrastructureprovisioning/v1/provisioningrequests/{provisioningRequestId}:
+  /O2ims_infrastructureProvisioning/v1/provisioningRequests/{provisioningRequestId}:
     get:
       description: "The GET operation is used to retrieve the description of a single ProvisioningRequest"
       tags:
