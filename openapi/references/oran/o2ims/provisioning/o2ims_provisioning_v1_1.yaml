@@ -117,7 +117,7 @@ components:
         - updateTime
         - message
         - provisioningPhase
-    O2ims_infrastructureProvisioning.ProvisionedResurceSet:
+    O2ims_infrastructureProvisioning.ProvisionedResourceSet:
       type: object
       description: |
         This type represents information about the resources that have been successfully provisioned 
@@ -155,7 +155,7 @@ components:
           description: |
             The time of the last message and the current ProvisioningPhase of the ProvisioningRequest.
         provisionedResourceSet:
-          $ref: '#/components/schemas/O2ims_infrastructureProvisioning.ProvisionedResurceSet'
+          $ref: '#/components/schemas/O2ims_infrastructureProvisioning.ProvisionedResourceSet'
           description: |
             The resources that have been successfully provisioned as part of the ProvisioningRequest.
       required:
